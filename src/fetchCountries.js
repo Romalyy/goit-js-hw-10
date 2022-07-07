@@ -10,7 +10,6 @@ export const fetchCountries = name => {
 });
 }
 
-
 export function countryСard({ flags, name, capital, population, languages }) {
   return `
     <div class="country-info__container">
